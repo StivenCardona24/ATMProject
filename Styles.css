@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --main-color: #caf8f2;
+    --second-color:#00A0FA;
+    --color-head: #2e00fa;
+}
+
+body{
+    background-color: var(--main-color);
+    /* background-color: white; */
+    
+}
+
+
+
+
+
+
+.card{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 40px;
+    /* padding: 10px 30px 70px 30px; */
+/*     
+    width: 50%; */
+    
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 5px gray;
+
+    
+}
+
+
+.sigIn-title{
+   
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: var(--second-color);
+
+}
+
+#teclado{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+   
+}
+
+#teclado tr button{
+    margin: 5px 0px;
+}
